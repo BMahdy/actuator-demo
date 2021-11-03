@@ -1,0 +1,10 @@
+server:
+  port: 7070
+management:
+    endpoint:
+      health:
+        enabled: true
+    endpoints:
+      web:
+        exposure:
+          include: health
